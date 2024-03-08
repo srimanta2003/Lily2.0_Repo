@@ -1,0 +1,73 @@
+{
+    "name": "˹ 𝐋𝚒𝚕𝚢 ✘ 𝐌ᴜsɪᴄ ˼",
+    "description": "𝐀 𝐓ᴇʟᴇɢʀᴀᴍ 𝐌ᴜsɪᴄ 𝐏ʟᴀʏᴇʀ 𝐁ᴏᴛ, 𝐖ʀɪᴛᴛᴇɴ 𝐈ɴ 𝐏ʏᴛʜᴏɴ 𝐖ɪᴛʜ 𝐏ʏʀᴏɢʀᴀᴍ 𝐀ɴᴅ 𝐏ʏ-𝐓ɢᴄᴀʟʟs.",
+    "logo": "https://graph.org/file/89e1c3a393e7115ab76ff.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "LilyxMUSIC",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "𝐆ᴇᴛ 𝐓ʜɪs 𝐕ᴀʟᴜᴇ 𝐅ʀᴏᴍ https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "𝐆ᴇᴛ 𝐓ʜɪs 𝐕ᴀʟᴜᴇ 𝐅ʀᴏᴍ https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "𝐀 𝐁ᴏᴛ's 𝐓ᴏᴋᴇɴ 𝐅ʀᴏᴍ 𝐁ᴏᴛғᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "𝐆ᴇᴛ 𝐀 𝐌ᴏɴɢᴏᴅʙ 𝐔ʀʟ 𝐅ʀᴏᴍ https://cloud.mongodb.com.",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "𝐓ʜᴇ 𝐔sᴇʀ 𝐈ᴅ 𝐎ғ 𝐔sᴇʀ 𝐖ʜᴏᴍ 𝐘ᴏᴜ 𝐖ᴏᴜʟᴅ 𝐋ɪᴋᴇ 𝐓ᴏ 𝐀ᴅᴅ 𝐀s 𝐎ᴡɴᴇʀ.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "𝐀 𝐏ʏʀᴏɢʀᴀᴍ 𝐯𝟐 𝐒ᴛʀɪɴɢ 𝐒ᴇssɪᴏɴ.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "𝐘ᴏᴜʀ 𝐇ᴇʀᴏᴋᴜ 𝐀ᴄᴄᴏᴜɴᴛ's 𝐀ᴘɪ 𝐊ᴇʏ",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "𝐘ᴏᴜʀ 𝐇ᴇʀᴏᴋᴜ 𝐀ᴘᴘ 𝐍ᴀᴍᴇ",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "𝐘ᴏᴜʀ 𝐋ᴏɢ 𝐆ʀᴏᴜᴘ 𝐈ᴅ, 𝐀ᴅᴅ 𝐘ᴏᴜʀ 𝐁ᴏᴛ 𝐀ɴᴅ 𝐏ʀᴏᴍᴏᴛᴇ ᴀ 𝐀s ᴀ 𝐀ᴅᴍɪɴ 𝐖ɪᴛʜ 𝐅ᴜʟʟ 𝐑ɪɢʜᴛs!. 𝐂ʜᴀɴɴᴇʟ 𝐊ɪ 𝐈ᴅ 𝐌ᴀᴛ 𝐃ᴀᴀʟ 𝐃ᴇɴᴀ 𝐁ᴇʜᴇɴ 𝐊ᴇ 𝐋ᴀᴜᴅᴇ.",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+}
