@@ -24,17 +24,17 @@ update() {
 	pprint "\n\nUpdating package list.. "
 	sudo apt update 2>&1 | grep "can be upgraded" &>/dev/null
 	if [ $? -eq 0 ]; then
-		pprint "UPDATE AVAILABLE" "cgreen"
-		pprint "\n\nDo you want to automatically upgrade (y/n)?"
+		pprint "ᴜᴘᴅᴀᴛᴇ ᴀᴠᴀɪʟᴀʙʟᴇ" "cgreen"
+		pprint "\n\nᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴜᴘɢʀᴀᴅᴇ (y/n)?"
 		if yesnoprompt; then
-			pprint "\n\nUpgrading packages.. "
+			pprint "\n\nᴜᴘɢʀᴀᴅɪɴɢ ᴘᴀᴄᴋᴀɢᴇs.. "
 			sudo apt upgrade -y &>/dev/null &&
 			pprint "DONE!\n\n" "cgreen" || (pprint "FAIL.\n\n" "cred"; exit 1)
 		else
 			echo
 		fi
 	else
-		pprint "ALREADY UP TO DATE\n\n" "cgreen"
+		pprint "ᴀʟʀᴇᴀᴅʏ ᴜᴘ ᴛᴏ ᴅᴀᴛᴇ\n\n" "cgreen"
 	fi
 }
 
@@ -51,14 +51,14 @@ packages(){
 			pprint "SUCCESS.\n\n" "cgreen"
 		else
 			pprint "FAIL.\n\n" "cred"
-			pprint "You need to install ffmpeg manually in order to deploy GroovyMusic, exiting...\n" "cblue"
+			pprint "ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ɪɴsᴛᴀʟʟ ғғᴍᴘᴇɢ ᴍᴀɴᴜᴀʟʟʏ ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴅᴇᴘʟᴏʏ ʟɪʟʏxᴍᴜsɪᴄ, ᴇxɪᴛɪɴɢ...\n" "cblue"
 			exit 1
 		fi
 	fi
 
 	# Check ffmpeg version and warn user if necessary.
 	fv=$(grep -Po 'version (3.*?) ' <<< $(ffmpeg -version)) &&
-	pprint "Playing live streams not going to work since you have ffmpeg $fv, live streams are supported by version 4+.\n" "cblue"
+	pprint "ᴘʟᴀʏɪɴɢ ʟɪᴠᴇ sᴛʀᴇᴀᴍs ɴᴏᴛ ɢᴏɪɴɢ ᴛᴏ ᴡᴏʀᴋ sɪɴᴄᴇ ʏᴏᴜ ʜᴀᴠᴇ ғғᴍᴘᴇɢ $fv, ʟɪᴠᴇ sᴛʀᴇᴀᴍs ᴀʀᴇ sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ ᴠᴇʀsɪᴏɴ 4+.\n" "cblue"
 }
 
 
@@ -82,8 +82,8 @@ installation(){
 }
 
 clear
-pprint "Welcome to GroovyMusic Setup Installer\n\n"
-pprint "If you see any error during Installation Process, Please refer to these files for logs: "
+pprint "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʟɪʟʏxᴍᴜsɪᴄ sᴇᴛᴜᴘ ɪɴsᴛᴀʟʟᴇʀ\n\n"
+pprint "ɪғ ʏᴏᴜ sᴇᴇ ᴀɴʏ ᴇʀʀᴏʀ ᴅᴜʀɪɴɢ ɪɴsᴛᴀʟʟᴀᴛɪᴏɴ ᴘʀᴏᴄᴇss, ᴘʟᴇᴀsᴇ ʀᴇғᴇʀ ᴛᴏ ᴛʜᴇsᴇ ғɪʟᴇs ғᴏʀ ʟᴏɢs: "
 pprint "\nFor node js errors , Checkout nodelog.txt"
 pprint "\nFor pypi packages errors , Checkout pypilog.txt"
 sleep 1
@@ -94,7 +94,7 @@ update
 packages
 node
 installation
-pprint "\n\n\n\n\nGroovyMusic Installation Completed !" "cgreen"
+pprint "\n\n\n\n\nLilyXMusic Installation Completed !" "cgreen"
 sleep 1
 clear
 
@@ -122,5 +122,5 @@ STRING_SESSION = $string_session
 OWNER_ID = $ownid""" > .env
 clear
 
-pprint "\n\n\nThanks for using GroovyMusic installer, your vars have been saved successfully ! \nIf you wanna add more variables add them in your env by : vi .env"
+pprint "\n\n\nThanks for using LilyXMusic installer, your vars have been saved successfully ! \nIf you wanna add more variables add them in your env by : vi .env"
 pprint "\n\nNow you can start the bot by : bash start\n\n"
