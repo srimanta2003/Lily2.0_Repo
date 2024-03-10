@@ -1,7 +1,7 @@
 import asyncio
 
-from GroovyMusic.misc import db
-from GroovyMusic.utils.database import get_active_chats, is_music_playing
+from LilyXMusic.misc import db
+from LilyXMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
