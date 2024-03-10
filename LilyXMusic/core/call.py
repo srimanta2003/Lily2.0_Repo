@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from GroovyMusic import LOGGER, YouTube, app
-from GroovyMusic.misc import db
-from GroovyMusic.utils.database import (
+from LilyXMusic import LOGGER, YouTube, app
+from LilyXMusic.misc import db
+from LilyXMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from GroovyMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from GroovyMusic.utils.exceptions import AssistantErr
-from GroovyMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from GroovyMusic.utils.inline.play import stream_markup
-from GroovyMusic.utils.stream.autoclear import auto_clean
-from GroovyMusic.utils.thumbnails import get_thumb
+from LilyXMusic.utils.exceptions import AssistantErr
+from LilyXMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from LilyXMusic.utils.inline.play import stream_markup
+from LilyXMusic.utils.stream.autoclear import auto_clean
+from LilyXMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
