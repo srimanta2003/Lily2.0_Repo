@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from GroovyMusic.misc import db
-from GroovyMusic.utils.formatters import check_duration, seconds_to_min
+from LilyXMusic.misc import db
+from LilyXMusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
