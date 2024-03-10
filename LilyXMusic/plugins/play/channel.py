@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.utils.database import set_cmode
-from GroovyMusic.utils.decorators.admins import AdminActual
+from LilyXMusic import app
+from LilyXMusic.utils.database import set_cmode
+from LilyXMusic.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 
