@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.core.call import Anony
-from GroovyMusic.utils.database import is_music_playing, music_off
-from GroovyMusic.utils.decorators import AdminRightsCheck
-from GroovyMusic.utils.inline import close_markup
+from LilyXMusic import app
+from LilyXMusic.core.call import Anony
+from LilyXMusic.utils.database import is_music_playing, music_off
+from LilyXMusic.utils.decorators import AdminRightsCheck
+from LilyXMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
