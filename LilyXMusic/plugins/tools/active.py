@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from GroovyMusic import app
-from GroovyMusic.misc import SUDOERS
-from GroovyMusic.utils.database import (
+from LilyXMusic import app
+from LilyXMusic.misc import SUDOERS
+from LilyXMusic.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
