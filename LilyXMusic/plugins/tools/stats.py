@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from GroovyMusic import app
-from GroovyMusic.core.userbot import assistants
-from GroovyMusic.misc import SUDOERS, mongodb
-from GroovyMusic.plugins import ALL_MODULES
-from GroovyMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from GroovyMusic.utils.decorators.language import language, languageCB
-from GroovyMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from LilyXMusic import app
+from LilyXMusic.core.userbot import assistants
+from LilyXMusic.misc import SUDOERS, mongodb
+from LilyXMusic.plugins import ALL_MODULES
+from LilyXMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from LilyXMusic.utils.decorators.language import language, languageCB
+from LilyXMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
