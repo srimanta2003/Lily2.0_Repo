@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from GroovyMusic import app
-from GroovyMusic.utils.database import (
+from LilyXMusic import app
+from LilyXMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from GroovyMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from GroovyMusic.utils.decorators.admins import ActualAdminCB
-from GroovyMusic.utils.decorators.language import language, languageCB
-from GroovyMusic.utils.inline.settings import (
+from LilyXMusic.utils.decorators.admins import ActualAdminCB
+from LilyXMusic.utils.decorators.language import language, languageCB
+from LilyXMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from GroovyMusic.utils.inline.start import private_panel
+from LilyXMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
