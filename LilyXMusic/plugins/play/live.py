@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from GroovyMusic import YouTube, app
-from GroovyMusic.utils.channelplay import get_channeplayCB
-from GroovyMusic.utils.decorators.language import languageCB
-from GroovyMusic.utils.stream.stream import stream
+from LilyXMusic import YouTube, app
+from LilyXMusic.utils.channelplay import get_channeplayCB
+from LilyXMusic.utils.decorators.language import languageCB
+from LilyXMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
