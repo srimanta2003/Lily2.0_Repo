@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from GroovyMusic import YouTube, app
-from GroovyMusic.misc import SUDOERS
-from GroovyMusic.utils.database import (
+from LilyXMusic import YouTube, app
+from LilyXMusic.misc import SUDOERS
+from LilyXMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from GroovyMusic.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from GroovyMusic.utils.inline import botplaylist_markup
+from LilyXMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
