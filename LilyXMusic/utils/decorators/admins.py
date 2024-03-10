@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from GroovyMusic import app
-from GroovyMusic.misc import SUDOERS, db
-from GroovyMusic.utils.database import (
+from LilyXMusic import app
+from LilyXMusic.misc import SUDOERS, db
+from LilyXMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
