@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from GroovyMusic import YouTube, app
-from GroovyMusic.core.call import Anony
-from GroovyMusic.misc import SUDOERS, db
-from GroovyMusic.utils.database import (
+from LilyXMusic import YouTube, app
+from LilyXMusic.core.call import Anony
+from LilyXMusic.misc import SUDOERS, db
+from LilyXMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from GroovyMusic.utils.database import (
     music_on,
     set_loop,
 )
-from GroovyMusic.utils.decorators.language import languageCB
-from GroovyMusic.utils.formatters import seconds_to_min
-from GroovyMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from GroovyMusic.utils.stream.autoclear import auto_clean
-from GroovyMusic.utils.thumbnails import get_thumb
+from LilyXMusic.utils.decorators.language import languageCB
+from LilyXMusic.utils.formatters import seconds_to_min
+from LilyXMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from LilyXMusic.utils.stream.autoclear import auto_clean
+from LilyXMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
