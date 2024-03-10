@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from GroovyMusic import app
-from GroovyMusic.misc import HAPP, SUDOERS, XCB
-from GroovyMusic.utils.database import (
+from LilyXMusic import app
+from LilyXMusic.misc import HAPP, SUDOERS, XCB
+from LilyXMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from GroovyMusic.utils.decorators.language import language
-from GroovyMusic.utils.pastebin import AnonyBin
+from LilyXMusic.utils.decorators.language import language
+from LilyXMusic.utils.pastebin import AnonyBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
