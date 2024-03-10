@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.core.call import Anony
+from LilyXMusic import app
+from LilyXMusic.core.call import Anony
 
 welcome = 20
 close = 30
