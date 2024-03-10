@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from GroovyMusic import app
-from GroovyMusic.core.call import Anony, autoend
-from GroovyMusic.utils.database import get_client, is_active_chat, is_autoend
+from LilyXMusic import app
+from LilyXMusic.core.call import Anony, autoend
+from LilyXMusic.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from GroovyMusic.core.userbot import assistants
+            from LilyXMusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
