@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.misc import SUDOERS
+from LilyXMusic import app
+from LilyXMusic.misc import SUDOERS
 from GroovyMusic.utils.database import autoend_off, autoend_on
 
 
