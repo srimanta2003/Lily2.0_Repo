@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from GroovyMusic import app
-from GroovyMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from GroovyMusic.utils.decorators import language
-from GroovyMusic.utils.inline.settings import playmode_users_markup
+from LilyXMusic import app
+from LilyXMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from LilyXMusic.utils.decorators import language
+from LilyXMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
