@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.core.call import Anony
-from GroovyMusic.utils import bot_sys_stats
-from GroovyMusic.utils.decorators.language import language
-from GroovyMusic.utils.inline import supp_markup
+from LilyXMusic import app
+from LilyXMusic.core.call import Anony
+from LilyXMusic.utils import bot_sys_stats
+from LilyXMusic.utils.decorators.language import language
+from LilyXMusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
