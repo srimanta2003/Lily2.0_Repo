@@ -8,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from GroovyMusic.utils.database import is_on_off
-from GroovyMusic.utils.formatters import time_to_seconds
+from LilyXMusic.utils.database import is_on_off
+from LilyXMusic.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
