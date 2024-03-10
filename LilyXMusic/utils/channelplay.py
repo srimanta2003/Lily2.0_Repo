@@ -1,5 +1,5 @@
-from GroovyMusic import app
-from GroovyMusic.utils.database import get_cmode
+from LilyXMusic import app
+from LilyXMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
