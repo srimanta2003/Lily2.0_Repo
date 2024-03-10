@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from GroovyMusic import app
-from GroovyMusic.misc import SUDOERS
-from GroovyMusic.utils.database import add_off, add_on
-from GroovyMusic.utils.decorators.language import language
+from LilyXMusic import app
+from LilyXMusic.misc import SUDOERS
+from LilyXMusic.utils.database import add_off, add_on
+from LilyXMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
