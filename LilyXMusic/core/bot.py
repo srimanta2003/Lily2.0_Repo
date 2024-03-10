@@ -10,7 +10,7 @@ class Anony(Client):
     def __init__(self):
         LOGGER(__name__).info(f"𝙱𝙾𝚃 𝚂𝚃𝙰𝚁𝚃 𝙷𝙾 𝚁𝙰𝙷𝙰 𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽...")
         super().__init__(
-            name="GroovyMusic",
+            name="LilyXMusic",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
