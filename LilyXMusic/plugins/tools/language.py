@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from GroovyMusic import app
-from GroovyMusic.utils.database import get_lang, set_lang
-from GroovyMusic.utils.decorators import ActualAdminCB, language, languageCB
+from LilyXMusic import app
+from LilyXMusic.utils.database import get_lang, set_lang
+from LilyXMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
