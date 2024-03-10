@@ -27,7 +27,7 @@ update() {
 		pprint "ᴜᴘᴅᴀᴛᴇ ᴀᴠᴀɪʟᴀʙʟᴇ" "cgreen"
 		pprint "\n\nᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴜᴘɢʀᴀᴅᴇ (y/n)?"
 		if yesnoprompt; then
-			pprint "\n\nᴜᴘɢʀᴀᴅɪɴɢ ᴘᴀᴄᴋᴀɢᴇs.. "
+			pprint "\n\nupgrading package .. "
 			sudo apt upgrade -y &>/dev/null &&
 			pprint "DONE!\n\n" "cgreen" || (pprint "FAIL.\n\n" "cred"; exit 1)
 		else
