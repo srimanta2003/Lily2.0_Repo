@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.misc import SUDOERS
-from GroovyMusic.utils import get_readable_time
-from GroovyMusic.utils.database import (
+from LilyXMusic import app
+from LilyXMusic.misc import SUDOERS
+from LilyXMusic.utils import get_readable_time
+from LilyXMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from GroovyMusic.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from GroovyMusic.utils.decorators.language import language
-from GroovyMusic.utils.extraction import extract_user
+from LilyXMusic.utils.decorators.language import language
+from LilyXMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
