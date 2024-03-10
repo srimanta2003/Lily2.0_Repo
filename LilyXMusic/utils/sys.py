@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from GroovyMusic.misc import _boot_
-from GroovyMusic.utils.formatters import get_readable_time
+from LilyXMusic.misc import _boot_
+from LilyXMusic.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
