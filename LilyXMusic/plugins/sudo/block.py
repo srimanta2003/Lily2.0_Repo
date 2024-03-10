@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.misc import SUDOERS
-from GroovyMusic.utils.database import add_gban_user, remove_gban_user
-from GroovyMusic.utils.decorators.language import language
-from GroovyMusic.utils.extraction import extract_user
+from LilyXMusic import app
+from LilyXMusic.misc import SUDOERS
+from LilyXMusic.utils.database import add_gban_user, remove_gban_user
+from LilyXMusic.utils.decorators.language import language
+from LilyXMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
