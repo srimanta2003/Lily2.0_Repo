@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from GroovyMusic.core.mongo import mongodb
+from LilyXMusic.core.mongo import mongodb
 
 from .logging import LOGGER
 
