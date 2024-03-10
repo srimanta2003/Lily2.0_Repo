@@ -1,8 +1,8 @@
-from GroovyMusic.core.bot import Anony
-from GroovyMusic.core.dir import dirr
-from GroovyMusic.core.git import git
-from GroovyMusic.core.userbot import Userbot
-from GroovyMusic.misc import dbb, heroku
+from LilyXMusic.core.bot import Anony
+from LilyXMusic.core.dir import dirr
+from LilyXMusic.core.git import git
+from LilyXMusic.core.userbot import Userbot
+from LilyXMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
