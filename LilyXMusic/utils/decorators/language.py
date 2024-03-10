@@ -1,8 +1,8 @@
 from strings import get_string
 
-from GroovyMusic import app
-from GroovyMusic.misc import SUDOERS
-from GroovyMusic.utils.database import get_lang, is_maintenance
+from LilyXMusic import app
+from LilyXMusic.misc import SUDOERS
+from LilyXMusic.utils.database import get_lang, is_maintenance
 
 
 def language(mystic):
