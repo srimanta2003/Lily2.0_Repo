@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from GroovyMusic import app
-from GroovyMusic.utils import extract_user, int_to_alpha
-from GroovyMusic.utils.database import (
+from LilyXMusic import app
+from LilyXMusic.utils import extract_user, int_to_alpha
+from LilyXMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from GroovyMusic.utils.decorators import AdminActual, language
-from GroovyMusic.utils.inline import close_markup
+from LilyXMusic.utils.decorators import AdminActual, language
+from LilyXMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
