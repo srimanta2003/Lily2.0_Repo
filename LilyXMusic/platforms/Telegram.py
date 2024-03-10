@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from GroovyMusic import app
-from GroovyMusic.utils.formatters import (
+from LilyXMusic import app
+from LilyXMusic.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
