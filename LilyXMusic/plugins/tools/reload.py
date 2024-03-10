@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from GroovyMusic import app
-from GroovyMusic.core.call import Anony
-from GroovyMusic.misc import db
-from GroovyMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from GroovyMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from GroovyMusic.utils.formatters import alpha_to_int, get_readable_time
+from LilyXMusic import app
+from LilyXMusic.core.call import Anony
+from LilyXMusic.misc import db
+from LilyXMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from LilyXMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from LilyXMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
