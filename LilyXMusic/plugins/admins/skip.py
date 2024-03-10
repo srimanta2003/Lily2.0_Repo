@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from GroovyMusic import YouTube, app
-from GroovyMusic.core.call import Anony
-from GroovyMusic.misc import db
-from GroovyMusic.utils.database import get_loop
-from GroovyMusic.utils.decorators import AdminRightsCheck
-from GroovyMusic.utils.inline import close_markup, stream_markup
-from GroovyMusic.utils.stream.autoclear import auto_clean
-from GroovyMusic.utils.thumbnails import get_thumb
+from LilyXMusic import YouTube, app
+from LilyXMusic.core.call import Anony
+from LilyXMusic.misc import db
+from LilyXMusic.utils.database import get_loop
+from LilyXMusic.utils.decorators import AdminRightsCheck
+from LilyXMusic.utils.inline import close_markup, stream_markup
+from LilyXMusic.utils.stream.autoclear import auto_clean
+from LilyXMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
