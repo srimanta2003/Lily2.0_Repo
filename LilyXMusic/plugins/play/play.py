@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from GroovyMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from GroovyMusic.core.call import Anony
-from GroovyMusic.utils import seconds_to_min, time_to_seconds
-from GroovyMusic.utils.channelplay import get_channeplayCB
-from GroovyMusic.utils.decorators.language import languageCB
-from GroovyMusic.utils.decorators.play import PlayWrapper
-from GroovyMusic.utils.formatters import formats
-from GroovyMusic.utils.inline import (
+from LilyXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from LilyXMusic.core.call import Anony
+from LilyXMusic.utils import seconds_to_min, time_to_seconds
+from LilyXMusic.utils.channelplay import get_channeplayCB
+from LilyXMusic.utils.decorators.language import languageCB
+from LilyXMusic.utils.decorators.play import PlayWrapper
+from LilyXMusic.utils.formatters import formats
+from LilyXMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from GroovyMusic.utils.logger import play_logs
-from GroovyMusic.utils.stream.stream import stream
+from LilyXMusic.utils.logger import play_logs
+from LilyXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
