@@ -3,7 +3,7 @@ from pyrogram.types import Message
 
 from LilyXMusic import app
 from LilyXMusic.misc import SUDOERS
-from GroovyMusic.utils.database import autoend_off, autoend_on
+from LilyXMusic.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
