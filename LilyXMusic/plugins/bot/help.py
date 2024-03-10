@@ -3,11 +3,11 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from GroovyMusic import app
-from GroovyMusic.utils import help_pannel
-from GroovyMusic.utils.database import get_lang
-from GroovyMusic.utils.decorators.language import LanguageStart, languageCB
-from GroovyMusic.utils.inline.help import help_back_markup, private_help_panel
+from LilyXMusic import app
+from LilyXMusic.utils import help_pannel
+from LilyXMusic.utils.database import get_lang
+from LilyXMusic.utils.decorators.language import LanguageStart, languageCB
+from LilyXMusic.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 
