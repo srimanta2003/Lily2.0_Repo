@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("ᴀssɪsᴛᴀɴᴛ ᴄʟɪᴇɴᴛ ᴠᴀʀɪᴀʙʟᴇs ɴᴏᴛ ᴅᴇғɪɴᴇᴅ, ᴇxɪᴛɪɴɢ...")
+        LOGGER(__name__).error("𝐀ssɪsᴛᴀɴᴛ 𝐂ʟɪᴇɴᴛ 𝐕ᴀʀɪᴀʙʟᴇs 𝐍ᴏᴛ 𝐃ᴇғɪɴᴇᴅ, 𝐄xɪᴛɪɴɢ...")
         exit()
     await sudo()
     try:
@@ -36,26 +36,26 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("LilyXMusic.plugins" + all_module)
-    LOGGER("LilyXMusic.plugins").info("sᴜᴄᴄᴇssғᴜʟʟʏ ɪᴍᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs...")
+    LOGGER("LilyXMusic.plugins").info("𝐒ᴜᴄᴄᴇssғᴜʟʟʏ 𝐈ᴍᴘᴏʀᴛᴇᴅ 𝐌ᴏᴅᴜʟᴇs...")
     await userbot.start()
     await Anony.start()
     try:
         await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("LilyXMusic").error(
-            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
+            "𝐏ʟᴇᴀsᴇ 𝐓ᴜʀɴ 𝐎ɴ 𝐓ʜᴇ 𝐕ᴄ 𝐎ғ 𝐘ᴏᴜʀ 𝐋ᴏɢ 𝐆ʀᴏᴜᴘ\𝐂ʜᴀɴɴᴇʟ.\n\n𝐒ᴛᴏᴘᴘɪɴɢ 𝐁ᴏᴛ..."
         )
         exit()
     except:
         pass
     await Anony.decorators()
     LOGGER("LilyXMusic").info(
-        "𝙼𝙴𝚁𝙸 𝙹𝙰𝙰𝙽 𝙼𝙰𝚉𝙴 𝙺𝙰𝚁𝙾 𝙰𝙱 𝙹𝙰𝙺𝙴 𝙰𝙶𝙰𝚁 𝙺𝙾𝙸 𝙸𝚂𝚂𝚄𝙴 𝙷𝚄𝙰 𝚃𝙾𝙷 @its_Aryaan 𝚈𝙰𝙷𝙰 𝙳𝙼 𝙺𝙰𝚁 𝙻𝙴𝙽𝙰"
+        "𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽 𝐌𝙰𝚉𝙴 𝐊𝙰𝚁𝙾 𝐀𝙱 𝐉𝙰𝙺𝙴 𝐀𝙶𝙰𝚁 𝐊𝙾𝙸 𝐈𝚂𝚂𝚄𝙴 𝐇𝚄𝙰 𝐓𝙾𝙷 @its_Aryaan 𝐘𝙰𝙷𝙰 𝐃𝙼 𝐊𝙰𝚁 𝐋𝙴𝙽𝙰"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("LilyXMusic").info("Stopping 𝙻𝚒𝚕𝚢𝚇𝙼𝚞𝚜𝚒𝚌 Music Bot...")
+    LOGGER("LilyXMusic").info("𝐒ᴛᴏᴘᴘɪɴɢ 𝐋𝚒𝚕𝚢𝚇𝐌𝚞𝚜𝚒𝚌 𝐌ᴜsɪᴄ 𝐁ᴏᴛ...")
 
 
 if __name__ == "__main__":
