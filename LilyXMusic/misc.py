@@ -39,7 +39,7 @@ XCB = [
 def dbb():
     global db
     db = {}
-    LOGGER(__name__).info(f"Local Database Initialized.")
+    LOGGER(__name__).info(f"𝐋ᴏᴄᴀʟ 𝐃ᴀᴛᴀʙᴀsᴇ 𝐈ɴɪᴛɪᴀʟɪᴢᴇᴅ.")
 
 
 async def sudo():
@@ -71,5 +71,5 @@ def heroku():
                 LOGGER(__name__).info(f"Heroku App Configured")
             except BaseException:
                 LOGGER(__name__).warning(
-                    f"Please make sure your Heroku API Key and Your App name are configured correctly in the heroku."
+                    f"𝐏ʟᴇᴀsᴇ 𝐌ᴀᴋᴇ 𝐒ᴜʀᴇ 𝐘ᴏᴜʀ 𝐇ᴇʀᴏᴋᴜ 𝐀ᴘɪ 𝐊ᴇʏ 𝐀ɴᴅ 𝐘ᴏᴜʀ 𝐀ᴘᴘ 𝐍ᴀᴍᴇ 𝐀ʀᴇ 𝐂ᴏɴғɪɢᴜʀᴇᴅ 𝐂ᴏʀʀᴇᴄᴛʟʏ 𝐈ɴ 𝐓ʜᴇ 𝐇ᴇʀᴏᴋᴜ."
                 )
