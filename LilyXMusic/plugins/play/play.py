@@ -29,8 +29,11 @@ from config import BANNED_USERS, lyrical
     filters.command(
         [
             "play",
+            "ply",
+            "vply",
             "vplay",
             "cplay",
+            "cply",
             "cvplay",
             "playforce",
             "vplayforce",
@@ -188,7 +191,7 @@ async def play_commnd(
             spotify = True
             if not config.SPOTIFY_CLIENT_ID and not config.SPOTIFY_CLIENT_SECRET:
                 return await mystic.edit_text(
-                    "» sᴘᴏᴛɪғʏ ɪs ɴᴏᴛ sᴜᴘᴘᴏʀᴛᴇᴅ ʏᴇᴛ.\n\nᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ."
+                    "» 𝐒ᴘᴏᴛɪғʏ 𝐈s 𝐍ᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛᴇᴅ 𝐘ᴇᴛ.\n\n𝐏ʟᴇᴀsᴇ 𝐓ʀʏ 𝐀ɢᴀɪɴ 𝐋ᴀᴛᴇʀ."
                 )
             if "track" in url:
                 try:
@@ -505,7 +508,7 @@ async def play_music(client, CallbackQuery, _):
 async def anonymous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
-            "» ʀᴇᴠᴇʀᴛ ʙᴀᴄᴋ ᴛᴏ ᴜsᴇʀ ᴀᴄᴄᴏᴜɴᴛ :\n\nᴏᴘᴇɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢs.\n-> ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs\n-> ᴄʟɪᴄᴋ ᴏɴ ʏᴏᴜʀ ɴᴀᴍᴇ\n-> ᴜɴᴄʜᴇᴄᴋ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs.",
+            "» 𝐑ᴇᴠᴇʀᴛ 𝐁ᴀᴄᴋ 𝐓ᴏ 𝐔sᴇʀ 𝐀ᴄᴄᴏᴜɴᴛ :\n\n𝐎ᴘᴇɴ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ 𝐒ᴇᴛᴛɪɴɢs.\n-> 𝐀ᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs\n-> 𝐂ʟɪᴄᴋ 𝐎ɴ 𝐘ᴏᴜʀ 𝐍ᴀᴍᴇ\n-> 𝐔ɴᴄʜᴇᴄᴋ 𝐀ɴᴏɴʏᴍᴏᴜs 𝐀ᴅᴍɪɴ 𝐏ᴇʀᴍɪssɪᴏɴs.",
             show_alert=True,
         )
     except:
