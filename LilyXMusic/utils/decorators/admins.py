@@ -24,7 +24,7 @@ def AdminRightsCheck(mystic):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    text=f"{app.mention} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ, ᴠɪsɪᴛ <a href={SUPPORT_CHAT}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a> ғᴏʀ ᴋɴᴏᴡɪɴɢ ᴛʜᴇ ʀᴇᴀsᴏɴ.",
+                    text=f"{app.mention} 𝐈s 𝐔ɴᴅᴇʀ 𝐌ᴀɪɴᴛᴇɴᴀɴᴄᴇ, 𝐕ɪsɪᴛ <a href={SUPPORT_CHAT}>𝐒ᴜᴘᴘᴏʀᴛ 𝐆ʀᴏᴜᴘ</a> 𝐅ᴏʀ 𝐊ɴᴏᴡɪɴɢ 𝐓ʜᴇ 𝐑ᴇᴀsᴏɴ.",
                     disable_web_page_preview=True,
                 )
 
@@ -74,9 +74,9 @@ def AdminRightsCheck(mystic):
                             upvote = await get_upvote_count(chat_id)
                             text = f"""<b>ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɴᴇᴇᴅᴇᴅ</b>
 
-ʀᴇғʀᴇsʜ ᴀᴅᴍɪɴ ᴄᴀᴄʜᴇ ᴠɪᴀ : /reload
+𝐑ᴇғʀᴇsʜ 𝐊ᴀʀᴏ /reload 𝐘ᴇ 𝐂ᴍᴅ 𝐔sᴇ 𝐊ᴀʀᴋᴇ
 
-» {upvote} ᴠᴏᴛᴇs ɴᴇᴇᴅᴇᴅ ғᴏʀ ᴘᴇʀғᴏʀᴍɪɴɢ ᴛʜɪs ᴀᴄᴛɪᴏɴ."""
+» {upvote} 𝐕ᴏᴛᴇs 𝐍ᴇᴇᴅᴇᴅ 𝐅ᴏʀ 𝐏ᴇʀғᴏʀᴍɪɴɢ 𝐓ʜɪs 𝐀ᴄᴛɪᴏɴ."""
 
                             command = message.command[0]
                             if command[0] == "c":
@@ -120,7 +120,7 @@ def AdminActual(mystic):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    text=f"{app.mention} ɪs ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ, ᴠɪsɪᴛ <a href={SUPPORT_CHAT}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a> ғᴏʀ ᴋɴᴏᴡɪɴɢ ᴛʜᴇ ʀᴇᴀsᴏɴ.",
+                    text=f"{app.mention} 𝐈s 𝐔ɴᴅᴇʀ 𝐌ᴀɪɴᴛᴇɴᴀɴᴄᴇ, 𝐕ɪsɪᴛ <a href={SUPPORT_CHAT}>𝐒ᴜᴘᴘᴏʀᴛ 𝐆ʀᴏᴜᴘ</a> 𝐅ᴏʀ 𝐊ɴᴏᴡɪɴɢ 𝐓ʜᴇ 𝐑ᴇᴀsᴏɴ.",
                     disable_web_page_preview=True,
                 )
 
@@ -139,7 +139,7 @@ def AdminActual(mystic):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ʜᴏᴡ ᴛᴏ ғɪx ?",
+                            text="𝐇ᴏᴡ 𝐓ᴏ 𝐅ɪx ?",
                             callback_data="AnonymousAdmin",
                         ),
                     ]
