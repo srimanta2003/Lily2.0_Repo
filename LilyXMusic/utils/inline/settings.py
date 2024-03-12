@@ -16,7 +16,7 @@ def setting_markup(_):
             InlineKeyboardButton(text=_["ST_B_4"], callback_data="VM"),
         ],
         [
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ"),
         ],
     ]
     return buttons
@@ -25,7 +25,7 @@ def setting_markup(_):
 def vote_mode_markup(_, current, mode: Union[bool, str] = None):
     buttons = [
         [
-            InlineKeyboardButton(text="Vᴏᴛɪɴɢ ᴍᴏᴅᴇ ➜", callback_data="VOTEANSWER"),
+            InlineKeyboardButton(text="𝐕ᴏᴛɪɴɢ 𝐌ᴏᴅᴇ ➜", callback_data="VOTEANSWER"),
             InlineKeyboardButton(
                 text=_["ST_B_5"] if mode == True else _["ST_B_6"],
                 callback_data="VOMODECHANGE",
@@ -67,7 +67,7 @@ def auth_users_markup(_, status: Union[bool, str] = None):
                 text=_["BACK_BUTTON"],
                 callback_data="settings_helper",
             ),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ"),
         ],
     ]
     return buttons
@@ -106,7 +106,7 @@ def playmode_users_markup(
                 text=_["BACK_BUTTON"],
                 callback_data="settings_helper",
             ),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝐂ʟᴏsᴇ"),
         ],
     ]
     return buttons
