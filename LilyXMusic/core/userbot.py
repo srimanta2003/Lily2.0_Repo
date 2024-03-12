@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽...")
+        LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ sᴛᴀʀᴛ ʜᴏ ʀʜᴀ...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -57,17 +57,17 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽")
+                await self.one.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
             except:
                 LOGGER(__name__).error(
-                    "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
+                    "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
                 )
                 exit()
             self.one.id = self.one.me.id
             self.one.name = self.one.me.mention
             self.one.username = self.one.me.username
             assistantids.append(self.one.id)
-            LOGGER(__name__).info(f"𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽 {self.one.name}")
+            LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ 𝟐 sᴛᴀʀᴛ ʜᴏ ʀʜᴀ {self.one.name}")
 
         if config.STRING2:
             await self.two.start()
@@ -78,17 +78,17 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽")
+                await self.two.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝟐 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
             except:
                 LOGGER(__name__).error(
-                    "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
+                    "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
                 )
                 exit()
             self.two.id = self.two.me.id
             self.two.name = self.two.me.mention
             self.two.username = self.two.me.username
             assistantids.append(self.two.id)
-            LOGGER(__name__).info(f"𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽 {self.two.name}")
+            LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ 𝟑 sᴛᴀʀᴛ ʜᴏ ʀʜᴀ {self.two.name}")
 
         if config.STRING3:
             await self.three.start()
@@ -99,17 +99,17 @@ class Userbot(Client):
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽")
+                await self.three.send_message(config.LOGGER_ID, "𝐀𝐬𝐬ɪ𝐬ᴛᴀɴᴛ 𝟑 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
             except:
                 LOGGER(__name__).error(
-                    "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
                 )
                 exit()
             self.three.id = self.three.me.id
             self.three.name = self.three.me.mention
             self.three.username = self.three.me.username
             assistantids.append(self.three.id)
-            LOGGER(__name__).info(f"𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽 {self.three.name}")
+            LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ 𝟒 sᴛᴀʀᴛ ʜᴏ ʀʜᴀ {self.three.name}")
 
         if config.STRING4:
             await self.four.start()
@@ -120,17 +120,17 @@ class Userbot(Client):
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽")
+                await self.four.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝟒 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
             except:
                 LOGGER(__name__).error(
-                    "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
                 )
                 exit()
             self.four.id = self.four.me.id
             self.four.name = self.four.me.mention
             self.four.username = self.four.me.username
             assistantids.append(self.four.id)
-            LOGGER(__name__).info(f"𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽 {self.four.name}")
+            LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ 𝟓 sᴛᴀʀᴛ ʜᴏ ʀʜᴀ {self.four.name}")
 
         if config.STRING5:
             await self.five.start()
@@ -141,10 +141,10 @@ class Userbot(Client):
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽")
+                await self.five.send_message(config.LOGGER_ID, "𝐀ssɪsᴛᴀɴᴛ 𝟓 𝐁ʜɪ 𝐒ᴛᴀʀᴛ 𝐇ᴏ 𝐆ʏᴀ 𝐁ᴀʙᴇ")
             except:
                 LOGGER(__name__).error(
-                    "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    "𝐀ssɪsᴛᴀɴᴛ 𝐈ᴅ 𝐊ᴏ 𝐀ᴅᴍɪɴ 𝐁ᴀɴʏᴀ 𝐘ᴀ 𝐍ʜɪ 𝐆ᴀɴᴅᴜ"
                 )
                 exit()
             self.five.id = self.five.me.id
@@ -154,7 +154,7 @@ class Userbot(Client):
             LOGGER(__name__).info(f"𝐀𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝐒𝚃𝙰𝚁𝚃 𝐇𝙾 𝐆𝚈𝙰 𝐌𝙴𝚁𝙸 𝐉𝙰𝙰𝙽 {self.five.name}")
 
     async def stop(self):
-        LOGGER(__name__).info(f"𝚂𝚃𝙾𝙿 𝙷𝙾 RHA🥺...")
+        LOGGER(__name__).info(f"𝐋ɪʟʏ𝐱𝐀ssɪsᴛᴀɴᴛ 𝐒ᴛᴏᴘ...")
         try:
             if config.STRING1:
                 await self.one.stop()
