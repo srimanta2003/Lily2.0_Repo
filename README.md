@@ -70,5 +70,5 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 
 - <b> sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ ᴀʟʟ ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs, sᴜᴘᴘᴏʀᴛᴇʀs, ᴀɴᴅ ᴜsᴇʀs ᴏғ ᴛʜᴇ ˹ 𝐋𝐢𝐥𝐲 ✘ 𝐌𝐮𝐬𝐢𝐜 ˼ ʏᴏᴜʀ ғᴇᴇᴅʙᴀᴄᴋ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴋᴇᴇᴘ ᴜs ɢᴏɪɴɢ!
-- [Yukki Music](https://github.com/TeamYukki/YukkiMusicBot) ᴀɴᴅ [AnonXMusic](https://github.com/AnonymousX1025/AnonXMusic) ғᴏʀ ᴛʜᴇɪʀ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇs.
+- [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ](https://github.com/TeamYukki/YukkiMusicBot) ᴀɴᴅ [ᴀɴᴏɴxᴍᴜsɪᴄ](https://github.com/AnonymousX1025/AnonXMusic) ғᴏʀ ᴛʜᴇɪʀ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇs.
 ) </b>
