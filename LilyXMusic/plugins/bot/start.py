@@ -32,7 +32,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAIRj2XZu1RefUC1KliCvVKJoqiUSlelAAK1CwAC3SjQVjRrfJMrMGtxNAQ")
+            await message.reply_sticker("CAACAgUAAxkBAAIVQWX0AAEa90uHcDE8ToUSWHA-IdZzHAACgxEAAgVqoVdrPxoJcnWZQzQE")
             return await message.reply_photo(
                 photo=config.START_IMG_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
@@ -43,7 +43,7 @@ async def start_pm(client, message: Message, _):
             if await is_on_off(2):
                 return await app.send_message(
                     chat_id=config.LOGGER_ID,
-                    text=f"{message.from_user.mention} 𝐘ᴇ 𝐒ᴛᴀʀᴛ 𝐊ɪʏᴀ 𝐌ᴜᴊʜᴇ 𝐀ʙʜɪ 🐼<b></b>.\n\n<b>𝐈sᴋɪ 𝐔sᴇʀ 𝐈ᴅ 𝐘ᴇ 𝐇ᴀɪ 🐱 :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}",
+                    text=f"{message.from_user.mention} 𝐘ᴇ 𝐒ᴛᴀʀᴛ 𝐊ɪʏᴀ 𝐌ᴜᴊʜᴇ 𝐀ʙʜɪ 🐼<b></b>.\n\n<b>𝐈sᴋɪ 𝐔sᴇʀ 𝐈ᴅ 𝐘ᴇ 𝐇ᴀɪ 🐱 :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ 🦋 :</b> @{message.from_user.username}",
                 )
             return
         if name[0:3] == "inf":
@@ -81,11 +81,11 @@ async def start_pm(client, message: Message, _):
             if await is_on_off(2):
                 return await app.send_message(
                     chat_id=config.LOGGER_ID,
-                    text=f"{message.from_user.mention} 𝐘ᴇ 𝐌ᴜᴊʜᴇ 𝐒ᴛᴀʀᴛ 𝐊ᴀʀᴋᴇ<b>𝐒ᴏɴɢ 𝐊ɪ 𝐈ɴғᴏ 𝐃ᴇᴋʜᴀ</b>.\n\n<b>𝐈sᴋɪ 𝐔sᴇʀ 𝐈ᴅ 𝐘ᴇ 𝐇ᴀɪ 🐱 :</b> <code>{message.from_user.id}</code>\n<b>𝐀ᴜʀ 𝐘ᴇ 𝐈sᴋᴀ 𝐔sᴇʀɴᴀᴍᴇ 𝐇ᴀɪ:</b> @{message.from_user.username}",
+                    text=f"{message.from_user.mention} 𝐘ᴇ 𝐌ᴜᴊʜᴇ 𝐒ᴛᴀʀᴛ 𝐊ᴀʀᴋᴇ<b>𝐒ᴏɴɢ 𝐊ɪ 𝐈ɴғᴏ 𝐃ᴇᴋʜᴀ</b>.\n\n<b>𝐈sᴋɪ 𝐔sᴇʀ 𝐈ᴅ 𝐘ᴇ 𝐇ᴀɪ 🐱 :</b> <code>{message.from_user.id}</code>\n<b>𝐀ᴜʀ 𝐘ᴇ 𝐈sᴋᴀ 𝐔sᴇʀɴᴀᴍᴇ 𝐇ᴀɪ 🦋 :</b> @{message.from_user.username}",
                 )
     else:
         out = private_panel(_)
-        await message.reply_sticker("CAACAgUAAxkBAAIRj2XZu1RefUC1KliCvVKJoqiUSlelAAK1CwAC3SjQVjRrfJMrMGtxNAQ")
+        await message.reply_sticker("CAACAgUAAxkBAAIVQWX0AAEa90uHcDE8ToUSWHA-IdZzHAACgxEAAgVqoVdrPxoJcnWZQzQE")
         await message.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["start_2"].format(message.from_user.mention, app.mention),
@@ -94,7 +94,7 @@ async def start_pm(client, message: Message, _):
         if await is_on_off(2):
             return await app.send_message(
                 chat_id=config.LOGGER_ID,
-                text=f"{message.from_user.mention} 𝐘ᴇ 𝐒ᴛᴀʀᴛ 𝐊ɪʏᴀ 𝐌ᴜᴊʜᴇ 𝐀ʙʜɪ 🐼.\n\n<b>𝐈sᴋɪ 𝐔sᴇʀ 𝐈ᴅ 𝐘ᴇ 𝐇ᴀɪ 🐱 :</b> <code>{message.from_user.id}</code>\n<b>𝐀ᴜʀ 𝐘ᴇ 𝐈sᴋᴀ 𝐔sᴇʀɴᴀᴍᴇ 𝐇ᴀɪ :</b> @{message.from_user.username}",
+                text=f"{message.from_user.mention} 𝐘ᴇ 𝐒ᴛᴀʀᴛ 𝐊ɪʏᴀ 𝐌ᴜᴊʜᴇ 𝐀ʙʜɪ 🐼.\n\n<b>𝐈sᴋɪ 𝐔sᴇʀ 𝐈ᴅ 𝐘ᴇ 𝐇ᴀɪ 🐱 :</b> <code>{message.from_user.id}</code>\n<b>𝐀ᴜʀ 𝐘ᴇ 𝐈sᴋᴀ 𝐔sᴇʀɴᴀᴍᴇ 𝐇ᴀɪ 🦋 :</b> @{message.from_user.username}",
             )
 
 
