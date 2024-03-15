@@ -17,7 +17,7 @@
 </h3>
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Venom-TEST-BOTS/Lily2.0_Repo"> <img src="https://img.shields.io/badge/Deploy%20On%20azure-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Venom-TEST-BOTS/Lily2.0_Repo"> <img src="https://img.shields.io/badge/𝐃ᴇᴘʟᴏʏ%20𝐎ɴ%20𝐇ᴇʀᴏᴋᴜ-azure?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
