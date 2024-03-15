@@ -2,7 +2,7 @@
 <img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="800" height="3">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Venom-TEST-BOTS&repo=Lily2.0_Repo&theme=flag-spain)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Venom-TEST-BOTS&repo=Lily2.0_Repo&theme=flag-india)
 
 [![GIF](https://github.com/Venom-TEST-BOTS/blob/main/Venom-TEST-BOTS.gif)](https://github.com/Venom-TEST-BOTS)
    [![xᴅ_ɴᴇᴛᴡᴏʀᴋ](https://github-stats-alpha.vercel.app/api?username=Venom-TEST-BOTS "Lily2.0_Repo")](https://github-stats-alpha.vercel.app/api?username=Venom-TEST-BOTS "Lily2.0_Repo")
@@ -17,7 +17,7 @@
 </h3>
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Venom-TEST-BOTS/Lily2.0_Repo"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Venom-TEST-BOTS/Lily2.0_Repo"> <img src="https://img.shields.io/badge/Deploy%20On%20azure-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 
