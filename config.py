@@ -84,7 +84,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ba0d1cd6fa6dc871b45a7.jpg"
+    "START_IMG_URL", "https://graph.org/file/d3b192b51d4b9f866a912.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/4a72c60cab00853718087.jpg"
@@ -112,11 +112,11 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ_ᴄʜᴀɴɴᴇʟ ᴜʀʟ ɪs ᴡʀᴏɴɢ. ᴘʟᴇᴀsᴇ ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ɪᴛ sᴛᴀʀᴛs ᴡɪᴛʜ https://"
         )
 
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - ʏᴏᴜʀ sᴜᴘᴘᴏʀᴛ_ᴄʜᴀᴛ ᴜʀʟ ɪs ᴡʀᴏɴɢ. ᴘʟᴇᴀsᴇ ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ɪᴛ sᴛᴀʀᴛs ᴡɪᴛʜ https://"
   )
