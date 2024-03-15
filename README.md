@@ -4,8 +4,8 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Venom-X-Bots&repo=SuperFast-New-Music&theme=flag-india)
 
-[![GIF](https://github.com/Venom-X-Bots/blob/main/Venom-X-Bots.gif)](https://github.com/Venom-X-Bots)
-   [![xᴅ_ɴᴇᴛᴡᴏʀᴋ](https://github-stats-alpha.vercel.app/api?username=Venom-X-Bots "LilyxMUSIC")](https://github-stats-alpha.vercel.app/api?username=Venom-X-Bots "LILYxMUSIC")
+[![GIF](https://github.com/Venom-TEST-BOTS/blob/main/Venom-TEST-BOTS.gif)](https://github.com/Venom-TEST-BOTS)
+   [![xᴅ_ɴᴇᴛᴡᴏʀᴋ](https://github-stats-alpha.vercel.app/api?username=Venom-TEST-BOTS "Lily2.0_Repo")](https://github-stats-alpha.vercel.app/api?username=Venom-TEST-BOTS "Lily2.0_Repo")
 
 <p align="center">
   <img src="https://graph.org/file/1f05ea59a08727a9ea01e.jpg">
@@ -20,7 +20,6 @@
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Venom-TEST-BOTS/Lily2.0_Repo"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
-[![Contributors](https://contrib.rocks/image?repo=Venom-X-Bots/SuperFast-New-Music)](https://github.com/Venom-TEST-BOTS/Lily2.0_Repo)
 
 ### Contact :
 <a href="https://t.me/M3_4_U"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
@@ -29,7 +28,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-- Get your [Necessary Variables](https://github.com/Venom-X-Bots/SuperFast-New-Music/blob/main/sample.env)
+- Get your [Necessary Variables](https://github.com/Venom-TEST-BOTS/Lily2.0_Repo/blob/main/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
