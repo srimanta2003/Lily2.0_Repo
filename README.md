@@ -2,10 +2,10 @@
 <img src="https://camo.githubusercontent.com/82291b0fe831bfc6781e07fc5090cbd0a8b912bb8b8d4fec0696c881834f81ac/68747470733a2f2f70726f626f742e6d656469612f394575424971676170492e676966" width="800" height="3">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Venom-TEST-BOTS&repo=Lily2.0_Repo&theme=flag-india)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=LUCIFER-TEST-BOTS&repo=Lily2.0_Repo&theme=flag-india)
 
-[![GIF](https://github.com/Venom-TEST-BOTS/blob/main/Venom-TEST-BOTS.gif)](https://github.com/Venom-TEST-BOTS)
-   [![xᴅ_ɴᴇᴛᴡᴏʀᴋ](https://github-stats-alpha.vercel.app/api?username=Venom-TEST-BOTS "Lily2.0_Repo")](https://github-stats-alpha.vercel.app/api?username=Venom-TEST-BOTS "Lily2.0_Repo")
+[![GIF](https://github.com/Venom-TEST-BOTS/blob/main/LUCIFER-TEST-BOTS.gif)](https://github.com/LUCIFER-TEST-BOTS)
+   [![xᴅ_ɴᴇᴛᴡᴏʀᴋ](https://github-stats-alpha.vercel.app/api?username=LUCIFER-TEST-BOT "Lily2.0_Repo")](https://github-stats-alpha.vercel.app/api?username=LUCIFER-TEST-BOTS "Lily2.0_Repo")
 
 <p align="center">
   <img src="https://graph.org/file/1f05ea59a08727a9ea01e.jpg">
@@ -28,7 +28,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-- Get your [Necessary Variables](https://github.com/Venom-TEST-BOTS/Lily2.0_Repo)
+- Get your [Necessary Variables](https://github.com/LUCIFER-TEST-BOTS/Lily2.0_Repo)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
